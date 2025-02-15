@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NFR HUDS</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./gauge.min.js"></script>
+    <script src="./script.js"></script>
+</head>
+
+<body>
+  <div class="layout">
+    <div class="moneyHud">
+        <div class="moneyBorder"></div>
+        <div class="icon1"></div>
+        <div class="Money" id="walletMoney">146.280
+            <div class="currency" id="currency1">RON</div>
+        </div>
+        <div class="icon2"></div>
+        <div class="Money" id="bankMoney">1.280.520
+            <div class="currency" id="currency2">RON</div>
+        </div>
+        <div class="Clock" id="timeClock">16:48
+            <div class="clockIcon"></div>
+        </div>
+        <div class="ID" id="userID">ID: 001</div>
+    </div>
+    <div class="controlsHud">
+        <div class="1Control">
+            <div class="border1">
+                <div class="key1">K</div>
+            </div>
+            <div class="border2">
+                <div class="infoText1">Meniul Principal</div>
+            </div>
+        </div>
+        <div class="2Control">
+            <div class="border3">
+                <div class="key2">F1</div>
+            </div>
+            <div class="border4">
+                <div class="infoText2">Invetarul</div>
+            </div>
+        </div>
+        <div class="3Control">
+            <div class="border5">
+                <div class="key3">F3</div>
+            </div>
+            <div class="border6">
+                <div class="infoText3">Emotes Menu</div>
+            </div>
+        </div>
+        <div class="4Control">
+            <div class="border7">
+                <div class="key4">L</div>
+            </div>
+            <div class="border8">
+                <div class="infoText4">Telefonul</div>
+            </div>
+        </div>
+        <div class="5Control">
+            <div class="border9">
+                <div class="key5">T</div>
+            </div>
+            <div class="border10">
+                <div class="infoText5">Chat-ul</div>
+            </div>
+        </div>
+    </div>
+    <div class="bankNotify" id="Notify">
+        <div class="borderBank">
+            <div class="iconBank"></div>
+            <div class="textBank" id="textNotify">received in your bank</div>
+            <div class="amountBank" id="amountBank">+340.000</div>
+        </div>
+    </div>
+    <div class="sentNotify" id="sentNotify">
+        <div class="borderSent">
+            <div class="iconSent"></div>
+            <div class="textSent" id="textSent">sent to another wallet</div>
+            <div class="amountSent" id="amountSent">-96.000</div>
+        </div>
+    </div>
+    <div class="speedoMeter">
+		<div id="container">
+           <canvas id="rpmshow" data-type="radial-gauge" data-width="225" data-height="225" data-units=""
+					data-title="false" data-min-value="0" data-max-value="10" data-value="0.00" data-animate-on-init="true"
+					data-major-ticks="" data-minor-ticks="" data-stroke-ticks="false"
+					data-bar-begin-circle="9" data-bar-length="2.5" data-borders="false" data-value-box="false"
+					data-animated-value="true" data-needle-type="line" data-needle-width="0" data-needle-circle-size="0"
+					data-needle-shadow="true" data-border-shadow-width="6" data-needle-circle-outer="false"
+					data-needle-circle-inner="false" data-needle-start="100" data-bar-width="8"
+					data-color-bar-progress="rgb(26, 188, 156)" data-color-bar-progress-end="rgb(150, 65, 76)"
+					data-color-Bar-Shadow="rgb(26, 188, 156)" data-bar-stroke-width="0" data-color-bar="rgba(0,0,0,0.25)"
+					data-color-bar-end="rgba(255,8,107,1)" data-highlights='[
+						{ "from": 8.5, "to": 9, "color": "rgba(255,8,107,1)" },
+						{ "from": 8.5, "to": 10, "color": "rgba(235,5,61,1)" }
+					]' data-color-plate="rgba(0,0,0,0.1)" data-color-major-ticks="rgba(255,255,255,0.0)"
+					data-color-minor-ticks="rgba(255,255,255,0.6)" data-color-title="#fff"
+					data-color-units="rgba(255,255,255,0.6)" data-color-numbers="rgba(255,255,255,0.6)"
+					data-color-needle="rgb(255,255,0)" data-color-needle-start="rgb(254,228,49)"
+					data-color-needle-end="rgb(254,74,88)" data-color-needle-circle-outer="rgba(254,228,49,1.0)"
+					data-color-needle-circle-inner="rgba(0,0,0,0.0)" data-animation-duration="2500" data-animation-rule="linear"
+					data-ticks-angle="240" data-start-angle="90" data-ticks-width="5" data-ticks-width-minor="5"
+					data-color-needle-shadow-down="rgba(255,0,0,0.5)" data-value-box-width="5" data-font-numbers="Hurme-Light"
+					data-font-value="Hurme-Light">
+                </canvas>
+                <div class="geardisplay"><span>0</span></div>
+
+                <div class="speeddisplay">
+                    <span class="gray">1</span>
+                    <span class="gray">3</span>
+                    <span class="gray">5</span>
+                </div>
+                
+                    <div class="unitdisplay">KM/H</div>
+                    <div class="abs">
+                        <span class="gray">ABS</span>
+                    </div>
+
+                    <div class="fuel">
+                        <span class="gray" style="margin-left: 0.25vw; color: white;">0</span>GAS
+                    </div>
+
+                    <div class="handbrake">
+                        <span class="gray">HBK</span>
+                    </div>
+
+    </div>
+    
+</div>
+<div class="infoNotify" id="infoNotify">
+    <div class="rectangle">
+        <i class="material-icons" id="title">Lorem Ipsum</i>
+        <span id="notification-text">&nbsp;&nbsp;Lorem Ipsum is a dummy phrase</span>
+        <div id="loader">
+            <div class="progress-bar">
+              <div class="progress" id="progress"></div>
+            </div>
+        <div class="counter" id="counter">
+            <div class="number" id="number">0</div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="time">
+    <div class="borderTime">
+        <div class="time" id="clock">16:47</div>
+        <div class="date" id="date">02 August 2022</div>
+    </div>
+</div>
+<div class="street">
+    <div class="borderStreet">
+        <div class="street" id="street">Ocean Drive</div>
+        <div class="alley" id="zone">Vinewood</div>
+    </div>
+</div>
+<script type="text/javascript">
+    var timers = []
+
+    function animateGauges() {
+        document.gauges.forEach(function (gauge) {
+            timers.push(setInterval(function () {
+                var min = gauge.options.minValue - 20
+                var max = gauge.options.maxValue + 20
+
+                gauge.value = min + Math.random() * (max - min)
+            }, gauge.animation.duration + 50))
+        })
+    }
+
+    function stopGaugesAnimation() {
+        timers.forEach(function (timer) {
+            clearInterval(timer)
+        })
+    }		
+
+    if (!Array.prototype.forEach) {
+        Array.prototype.forEach = function (cb) {
+            var i = 0,
+                s = this.length
+            for (;i < s ;i++) {
+                cb && cb(this[i], i, this)
+            }
+        }
+    }
+    document.fonts && document.fonts.forEach(function (font) {
+        font.loaded.then(function () {
+            if (font.family.match(/Led/)) {
+                document.gauges.forEach(function (gauge) {
+                    gauge.update()
+                    gauge.options.renderTo.style.visibility = 'visible'
+                })
+            }
+        })
+    })
+</script>
+</body>
+
+</html>

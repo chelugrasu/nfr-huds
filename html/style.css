@@ -1,0 +1,721 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.moneyBorder{
+    position: absolute;
+    right: 2.5vw;
+    top: 4vw;
+    width: 11vw;
+    height: 5vw;
+    background-color: rgb(0,0,0,0.6);
+    border-radius: 0.3vw;
+}
+.walletMoney{
+    font-family: 'Montserrat', sans-serif;
+    position:absolute;
+    font-size: 1.05vw;
+    font-weight: 550;
+    color: white;
+    right: 3.5vw;
+    top: 5vw;
+    text-shadow: 0vw 0vw 0.1vw black;
+}
+.currency{
+    font-family: 'Montserrat', sans-serif;
+    position:absolute;
+    font-size: 0.45vw;
+    font-weight: 400;
+    color: #1abc9c;
+    right: 9.15vw;
+    top: 5.7vw;
+    text-shadow: 0vw 0vw 0.1vw black;
+    filter: drop-shadow(0vw 0vw 0.2vw #1abc9c);
+}
+.Money{
+    font-family: 'Montserrat', sans-serif;
+    position:absolute;
+    font-size: 1.05vw;
+    font-weight: 550;
+    color: white;
+    right: 3.5vw;
+    top: 5vw;
+    text-shadow: 0vw 0vw 0.1vw black;
+}
+#currency1{
+    position: relative;
+    left: -1.1vw;
+    top: -0.7vw;
+}
+#currency2{
+    position: relative;
+    left: -1.1vw;
+    top: -0.65vw;
+}
+#walletMoney{
+    position: absolute;
+    top: 4.75vw;
+    right: 3vw;
+}
+#bankMoney{
+    position: absolute;
+    right: 3vw;
+    top: 6.75vw;
+}
+.icon1{
+    position: absolute;
+    right: 11.25vw;
+    top: 4.75vw;
+    width: 1.4vw;
+    height: 1.4vw;
+    background-image: url("https://media.discordapp.net/attachments/969672787990048838/1031212749222584441/icons8-banknote-661.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.icon2{
+    position: absolute;
+    right: 11.25vw;
+    top: 6.75vw;
+    width: 1.4vw;
+    height: 1.4vw;
+    background-image: url("https://media.discordapp.net/attachments/969672787990048838/1031238143334158436/icons8-bank-66.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.ID{
+    font-family: 'Montserrat', sans-serif;
+    position:absolute;
+    font-size: 0.65vw;
+    font-weight: 500;
+    color: white;
+    right: 6.5vw;
+    top: 2.8vw;
+    text-shadow: 0vw 0vw 0.1vw black;
+}
+
+.clockIcon{
+    position: absolute;
+    right: 1.75vw;
+    top: -0.1vw;
+    width: 1vw;
+    height: 1vw;
+    background-image: url("https://cdn.discordapp.com/attachments/969672787990048838/1031242383905529956/icons8-clock-66.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Clock{
+    font-family: 'Montserrat', sans-serif;
+    position:absolute;
+    font-size: 0.65vw;
+    font-weight: 500;
+    color: white;
+    right: 2.75vw;
+    top: 2.8vw;
+    text-shadow: 0vw 0vw 0.1vw black;
+}
+
+.controlsHud{
+    position: absolute;
+    right: 1vw;
+}
+
+.border1{
+    z-index: 5;
+    position: absolute;
+    top: 20vw;
+    right: 1.5vw;
+    width: 1.8vw;
+    height: 1.8vw;
+    border-radius: 0.25vw;
+    background-color: #1abc9c;
+    filter: drop-shadow(0vw 0vw 0.2vw #1abc9c);
+}
+.key1{
+    font-family: 'Montserrat', sans-serif;
+    position:absolute;
+    font-size: 0.85vw;
+    font-weight: 700;
+    color: white;
+    right: 0.6vw;
+    top: 0.4vw;
+    text-shadow: 0vw 0vw 0.2vw black;
+}
+.border2{
+    z-index: 0;
+    position: absolute;
+    top: 20.05vw;
+    right: 3.25vw;
+    width: auto ;
+    height: 1.75vw;
+    border-radius: 0.25vw;
+    background-color: rgb(0,0,0,0.6);
+}
+.infoText1{
+    font-family: 'Montserrat', sans-serif;
+    position:relative;
+    width: 6vw;
+    font-size: 0.6vw;
+    font-weight: 550;
+    color: rgb(223, 223, 223);
+    right: -0.6vw;
+    top: 0.5vw;
+    text-shadow: 0vw 0vw 0.2vw black;
+}
+
+.border3{
+    z-index: 5;
+    position: absolute;
+    top: 22.5vw;
+    right: 1.5vw;
+    width: 1.8vw;
+    height: 1.8vw;
+    border-radius: 0.25vw;
+    background-color: #1abc9c;
+    filter: drop-shadow(0vw 0vw 0.2vw #1abc9c);
+}
+.key2{
+    font-family: 'Montserrat', sans-serif;
+    position:absolute;
+    font-size: 0.85vw;
+    font-weight: 700;
+    color: white;
+    right: 0.5vw;
+    top: 0.4vw;
+    text-shadow: 0vw 0vw 0.2vw black;
+}
+.border4{
+    z-index: 0;
+    position: absolute;
+    top: 22.6vw;
+    right: 3.25vw;
+    width: auto;
+    height: 1.75vw;
+    border-radius: 0.25vw;
+    background-color: rgb(0,0,0,0.6);
+}
+.infoText2{
+    font-family: 'Montserrat', sans-serif;
+    position:relative;
+    font-size: 0.6vw;
+    width: 3.5vw;
+    font-weight: 550;
+    color: rgb(223, 223, 223);
+    right: -0.35vw;
+    top: 0.5vw;
+    text-shadow: 0vw 0vw 0.2vw black;
+}
+.border5{
+    z-index: 5;
+    position: absolute;
+    top: 25vw;
+    right: 1.5vw;
+    width: 1.8vw;
+    height: 1.8vw;
+    border-radius: 0.25vw;
+    background-color: #1abc9c;
+    filter: drop-shadow(0vw 0vw 0.2vw #1abc9c);
+}
+.key3{
+    font-family: 'Montserrat', sans-serif;
+    position:absolute;
+    font-size: 0.85vw;
+    font-weight: 700;
+    color: white;
+    right: 0.4vw;
+    top: 0.4vw;
+    text-shadow: 0vw 0vw 0.2vw black;
+}
+.border6{
+    z-index: 0;
+    position: absolute;
+    top: 25.05vw;
+    right: 3.25vw;
+    width: auto;
+    height: 1.75vw;
+    border-radius: 0.25vw;
+    background-color: rgb(0,0,0,0.6);
+}
+.infoText3{
+    font-family: 'Montserrat', sans-serif;
+    position:relative;
+    font-size: 0.6vw;
+    width: 5vw;
+    font-weight: 550;
+    color: rgb(223, 223, 223);
+    right: -0.35vw;
+    top: 0.5vw;
+    text-shadow: 0vw 0vw 0.2vw black;
+}
+.border7{
+    z-index: 5;
+    position: absolute;
+    top: 27.5vw;
+    right: 1.5vw;
+    width: 1.8vw;
+    height: 1.8vw;
+    border-radius: 0.25vw;
+    background-color: #1abc9c;
+    filter: drop-shadow(0vw 0vw 0.2vw #1abc9c);
+}
+.key4{
+    font-family: 'Montserrat', sans-serif;
+    position:absolute;
+    font-size: 0.85vw;
+    font-weight: 700;
+    color: white;
+    right: 0.65vw;
+    top: 0.4vw;
+    text-shadow: 0vw 0vw 0.2vw black;
+}
+.border8{
+    z-index: 0;
+    position: absolute;
+    top: 27.6vw;
+    right: 3.25vw;
+    width: auto;
+    height: 1.75vw;
+    border-radius: 0.25vw;
+    background-color: rgb(0,0,0,0.6);
+}
+.infoText4{
+    font-family: 'Montserrat', sans-serif;
+    position:relative;
+    font-size: 0.6vw;
+    width: 4vw;
+    font-weight: 550;
+    color: rgb(223, 223, 223);
+    right: -0.5vw;
+    top: 0.5vw;
+    text-shadow: 0vw 0vw 0.2vw black;
+}
+.border9{
+    z-index: 5;
+    position: absolute;
+    top: 30vw;
+    right: 1.5vw;
+    width: 1.8vw;
+    height: 1.8vw;
+    border-radius: 0.25vw;
+    background-color: #1abc9c;
+    filter: drop-shadow(0vw 0vw 0.2vw #1abc9c);
+}
+.key5{
+    font-family: 'Montserrat', sans-serif;
+    position:absolute;
+    font-size: 0.85vw;
+    font-weight: 700;
+    color: white;
+    right: 0.65vw;
+    top: 0.4vw;
+    text-shadow: 0vw 0vw 0.2vw black;
+}
+.border10{
+    z-index: 0;
+    position: absolute;
+    top: 30.1vw;
+    right: 3.25vw;
+    width: auto;
+    height: 1.75vw;
+    border-radius: 0.25vw;
+    background-color: rgb(0,0,0,0.6);
+}
+.infoText5{
+    font-family: 'Montserrat', sans-serif;
+    position:relative;
+    font-size: 0.6vw;
+    width: 3.5vw;
+    font-weight: 550;
+    color: rgb(223, 223, 223);
+    right: -0.6vw;
+    top: 0.5vw;
+    text-shadow: 0vw 0vw 0.2vw black;
+}
+.bankNotify{
+    display:none;
+}
+.borderBank{
+    position: absolute;
+    right: 14.5vw;
+    top: 5vw;
+    width: 9vw;
+    height: 3.5vw;
+    background-color: rgb(0,0,0,0.6);
+    border-radius: 0.3vw;
+}
+.iconBank{
+    position: absolute;
+    right: 7vw;
+    top: 1vw;
+    width: 1.4vw;
+    height: 1.4vw;
+    background-image: url("https://cdn.discordapp.com/attachments/969672787990048838/1031308363511906415/icons8-money-transfer-66.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.textBank{
+    font-family: 'Montserrat', sans-serif;
+    position:relative;
+    font-size: 0.55vw;
+    font-weight: 400;
+    color: rgb(187, 187, 187);
+    right: -2.05vw;
+    top: 0.75vw;
+    text-shadow: 0vw 0vw 0.2vw black;
+}
+.amountBank{
+    font-family: 'Montserrat', sans-serif;
+    position:absolute;
+    font-size: 0.75vw;
+    font-weight: 600;
+    color: #1abc9c;
+    right: 1vw;
+    top: 1.7vw;
+    text-shadow: 0vw 0vw 0.1vw black;
+    filter: drop-shadow(0vw 0vw 0.2vw #1abc9c);
+}
+.sentNotify{
+    display:none;
+}
+.borderSent{
+    position: absolute;
+    right: 14.5vw;
+    top: 5vw;
+    width: 9vw;
+    height: 3.5vw;
+    background-color: rgb(0,0,0,0.6);
+    border-radius: 0.3vw;
+}
+.iconSent{
+    position: absolute;
+    right: 7vw;
+    top: 1vw;
+    width: 1.4vw;
+    height: 1.4vw;
+    background-image: url("https://cdn.discordapp.com/attachments/969672787990048838/1031605793281278052/icons8-initiate-money-transfer-66.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.textSent{
+    font-family: 'Montserrat', sans-serif;
+    position:relative;
+    font-size: 0.53vw;
+    font-weight: 400;
+    color: rgb(187, 187, 187);
+    right: -2.1vw;
+    top: 0.75vw;
+    text-shadow: 0vw 0vw 0.2vw black;
+}
+.amountSent{
+    font-family: 'Montserrat', sans-serif;
+    position:absolute;
+    font-size: 0.75vw;
+    font-weight: 600;
+    color: #ff3300;
+    right: 1vw;
+    top: 1.7vw;
+    text-shadow: 0vw 0vw 0.1vw black;
+    filter: drop-shadow(0vw 0vw 0.05vw #ff3300);
+}
+.gauge-title {
+	font-size: 0.7vw;
+	fill: #FFFFFF;
+}
+
+.gauge-value {
+	font-size: 1.2vw;
+	fill: #FFFFFF;
+}
+
+.gauge-unity {
+	font-size: 0.2vw;
+	fill: #FFFFFF;
+}
+
+#container {
+    display: none;
+}
+
+#rpmshow {
+	position: absolute;
+    width: 11.25vw;
+    height: 11.25vw;
+	bottom: 0vw;
+	right: 1vw;
+    filter: drop-shadow(0vw 0vw 0.9vw #1abc9c);
+}
+.geardisplay {
+	text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 999;
+	font-size: 1.05vw;
+	width: 1.40vw;
+	height: 1.40vw;
+	position: fixed;
+	bottom: 4.5vw;
+	right: 5.9vw;
+	color: rgb(63, 249, 165);
+	border: 0.05vw solid rgb(63, 249, 165);
+    filter: drop-shadow(0vw 0vw 0.5vw rgb(63, 249, 165));
+	border-radius: 50%;
+}
+
+.geardisplay span {
+	margin: auto !important;
+}
+.speeddisplay {
+	font-size: 1.85vw;
+	position: fixed;
+	bottom: 4vw;
+	right: 1vw;
+    font-family: 'Montserrat', sans-serif;
+	color: #FFF;
+	text-shadow: 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.0);
+}
+
+.gray {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.int1 {
+	position: fixed;
+	bottom: 7vw;
+	right: 7.5vw;
+}
+
+.int2 {
+	position: fixed;
+	bottom: 7vw;
+	right: 6.25vw;
+}
+
+.int3 {
+	position: fixed;
+	bottom: 7vw;
+	right: 5vw;
+}
+
+.unitdisplay {
+	position: fixed;
+	bottom: 6.5vw;
+	right: 5.75vw;
+	color: rgba(255, 255, 255, 0.6);
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	font-size: 0.55vw;
+	letter-spacing: 0.1vw;
+}
+
+.abs {
+	position: fixed;
+	bottom: 6vw;
+	right: 3.75vw;
+	color: rgba(255, 255, 255, 1);
+    font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 0.55vw;
+	letter-spacing: 0.1vw;
+}
+
+.fuel {
+	position: fixed;
+	bottom: 3.75vw;
+	right: 5.45vw;
+	color: white;
+    font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 0.55vw;
+	letter-spacing: 0.1vw;
+}
+
+.handbrake {
+	position: fixed;
+	bottom: 6vw;
+	right: 8.25vw;
+	color: rgba(255, 255, 255, 1);
+    font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.55vw;
+	letter-spacing: 0.1vw;
+}
+
+.infoNotify {
+    position: absolute;
+	display: none;
+    top: 39vw;
+    left: 1.5vw;
+	justify-content: center;
+	align-items: center;
+}
+
+#loader {
+    position: absolute;
+    top: 3.85vw;
+    width: 15vw;
+    border-radius: 5vw;
+    transform: scale(0);
+    opacity: 0;
+	animation: scale-in .3s ease-out forwards,
+	expand .35s .25s ease-out forwards;
+}
+  .progress-bar {
+    background: rgb(0,0,0,0);
+    width: 13.5vw;
+    height: 0.15vw;
+    margin: auto;
+    overflow: hidden;
+    
+    
+  }
+  .progress-bar .progress {
+    background-image: linear-gradient(90deg, #1abc9c, #00ffcc);
+    width: 0.15vw;
+    height: 0.5vw;
+    filter: drop-shadow(0vw 0vw 0.2vw #1abc9c);
+  }
+
+.rectangle {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	positon: relative;
+	width: 4vw;
+	height: 4vw;
+	background: rgb(0,0,0,0.6);
+	transform: scale(0);
+	border-radius: 100vw;
+	color: white;
+	opacity: 0;
+	animation: scale-in .3s ease-out forwards,
+		expand .35s .25s ease-out forwards;
+}
+#title{
+    position: absolute;
+    top: 1vw;
+    left: 1.5vw;
+    width: 10vw;
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+    font-size: 0.75vw;
+    font-style: normal;
+    animation: fade-in .65s ease-in forwards;
+}
+#notification-text {
+    position: absolute;
+    top:2.15vw;
+    left: 1.5vw;
+    width: 91%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+	display: flex;
+    text-align: start;
+    color: rgb(221, 221, 221);
+    font-size: 0.65vw;
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	animation: fade-in .65s ease-in forwards;
+}
+.counter{
+    display: none;
+    position: absolute;
+    top: -3.85vw;
+    border-radius: 0.2vw;
+    left: 0vw;
+    width: 1vw;
+    height: 1vw;
+    background-color: rgb(255,255,255, 0.6);
+}
+.number{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    display: flexbox;
+    text-align: center;
+    font-weight: 700;
+    color: #1abc9c;
+    filter: drop-shadow(0vw 0vw 0.4vw #1abc9c);
+}
+
+@keyframes scale-in {
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+@keyframes expand {
+	50% {
+		width: 17.5vw;
+		border-radius: 0.5vw;
+	}
+	100% {
+		width: 14vw;
+		border-radius: 0.5vw;
+        
+	}
+}
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: .8;
+	}
+}
+
+.borderTime{
+    position: absolute;
+    top: 46vw;
+    left: 17vw;
+    width: 7vw;
+    height: 2.5vw;
+    background-color: rgb(0,0,0,0.6);
+    border-left: white solid 0.15vw;
+    border-radius: 0.25vw;
+}
+#clock{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    font-weight: 500;
+    font-size: 1vw;
+    top: 0.1vw;
+    left: 0.5vw;
+    color: white;
+}
+.date{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    font-weight: 400;
+    font-size: 0.65vw;
+    top: 1.3vw;
+    left: 0.6vw;
+    color: white;
+}
+.borderStreet{
+    position: absolute;
+    top: 49vw;
+    left: 16.5vw;
+    width: 7vw;
+    height: 2.5vw;
+    background-color: rgb(0,0,0,0.6);
+    border-left: #1abc9c solid 0.15vw;
+    border-radius: 0.25vw;
+}
+.street{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    font-weight: 500;
+    font-size: 1vw;
+    top: 0.1vw;
+    left: 0.4vw;
+    color: white;
+}
+.alley{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    font-weight: 400;
+    font-size: 0.65vw;
+    top: 1.3vw;
+    left: 0.4vw;
+    color: white;
+}
